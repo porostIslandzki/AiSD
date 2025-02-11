@@ -24,6 +24,10 @@ void CountingSort(int tab[], int n, int k) {
     }
 }
 
+//zalety: szybki! prosty
+//wady: mało uniwersalny, trzeba znać rozpiętość zbioru
+// n+n = 2*n
+
 int main(){
     int n, k;
     cin >> n;
